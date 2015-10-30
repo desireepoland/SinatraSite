@@ -1,43 +1,45 @@
 body {
-		width: 960px;
-		background-color: #f7f6f7;
-		font-family: 'Raleway', sans-serif;
-		color: #11131b;
-		margin: 0 auto;
-		text-align: center
-	}
+	width: 960px;
+	background-color: #f8f7f8;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	color: #11131b;
+	margin: 0 auto;
+	text-align: center
+}
 
-	h1 {
-		font-size: 32px;
-		font-weight: bold;
-	}
-	p {
-		font-size: 16px;
-		color: #11131b;
-		font-weight: normal;
-	}
-	img {
-		margin-top: 2em;
-		width: 275px;
-	}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
+	color: #11131b;
+	font-weight: normal;
+}
+img {
+	margin-top: 2em;
+	width: 275px;
+}
 	.soon img{
 		margin-top: 0;
+		width: 260px;
+		height: 240px;
 	}
-	.soon {
-		display: inline;
-	}
-  table{
-    padding-top: 2em;
-    margin: 0 auto;
-  }
-	hr {
- display: block;
- height: 1px;
- border: 0;
- border-top: 1px solid;
- border-color: #747070 ;
- margin: 1em 0;
- padding: 0;
+table{
+  margin: 3em auto;
+}
+tr {
+	height: 30px;
+	text-align: left;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid;
+	border-color: #747070 ;
+	margin: 1em 0;
+	padding: 0;
 }
 nav {
 	padding: 30px 10px 15px;
@@ -45,6 +47,9 @@ nav {
 .navlink {
 	padding: 0 50px;
 	display: inline;
+}
+a{
+	color: #199C8A;
 }
 a.navlink:link{
 	text-decoration: none;
@@ -54,4 +59,20 @@ a.navlink:visited{
 }
 a.navlink:hover{
 	text-decoration: underline;
+}
+footer {
+	display: flex;
+	width: 100%;
+}
+.half-col{
+	width: 50%;
+	font-size: 14px;
+	background-color: #AEE8D8;
+}
+.half-col:first-child {
+	text-align: left;
+	height: 50%;
+}
+.half-col:last-child {
+	text-align: right;
 }
