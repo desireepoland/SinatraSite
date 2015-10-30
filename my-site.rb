@@ -26,4 +26,9 @@ class MySite < Sinatra::Base
     @title = "Coming Soon"
     erb :soon
   end
+
+  get "/contact.html" do
+    @title = "Contact Me"
+    erb :contact
+  end
 end

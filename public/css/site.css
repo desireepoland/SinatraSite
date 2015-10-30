@@ -6,10 +6,12 @@ body {
 	margin: 0 auto;
 	text-align: center
 }
-
 h1 {
 	font-size: 32px;
 	font-weight: bold;
+}
+.home h1{
+	margin-bottom: 0px;
 }
 p {
 	font-size: 16px;
@@ -64,6 +66,14 @@ footer {
 	display: flex;
 	width: 100%;
 }
+	footer a {
+		color: #11131b;
+		text-decoration: none;
+	}
+	footer a:hover {
+		color: #11131b;
+		text-decoration: underline;
+	}
 .half-col{
 	width: 50%;
 	font-size: 14px;
@@ -75,4 +85,22 @@ footer {
 }
 .half-col:last-child {
 	text-align: right;
+}
+.home .social-media img{
+	margin: 0;
+	width: 32px;
+	height: 32px;
+}
+.contact .social-media img{
+	width: 75px;
+	height: 75px;
+	margin: 0 20px;
+}
+.social-media{
+	display: inline-block;
+ 	padding: 10px;
+ 	transition: all .2s ease-in-out;
+}
+.social-media:hover {
+ transform: rotate(360deg);
 }
