@@ -1,4 +1,6 @@
 <img src="fldez.jpg" alt="desiree"/>
 <h1>Aloha!</h1>
-<p>My name is Desiree.</p>
+<% dob = Date.new(1991,1,14)%>
+<% age = ((Date.today - dob).to_i / 365.25).to_i %>
+<p>My name is Desiree. I am <%= age %> years old.</p>
 <p>I'm currently a student at Ada Developers Academy in Seattle, WA.</p>
